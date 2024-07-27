@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello goobers :3!!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome,this website is created only for fun/test..</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Goobers!!</h2>
+            <p>This website is only for fun, yeah and uhh for a memory, but i still didn't figure it out on how to add the image:></p>
+        </section>
+        <section>
+            <h2>Gallery</h2>
+            <img src="content://media/external/downloads/1000003714" alt="errm actually" style="width:100%; max-width:600px;">
+        </section>
+    </main>
+    <footer>
+        <p>&copy Goobers!!</p>
+    </footer>
+</body>
+</html>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#ebc468;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin: 1rem 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header, footer {
+        font-size: 14px;
+    }
+}
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('Mobile website loaded');
+});
